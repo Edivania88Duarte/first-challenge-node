@@ -28,5 +28,17 @@ Retorna um pedido específico com base no ID fornecido nos parâmetros da rota.
 🍔 PATCH /order/:id:
 Altera o status de um pedido para "Pronto".
 Recebe o ID nos parâmetros da rota.
+
+<br>
+<p> Além de:
+ <br>
+ 
+- Middleware de Verificação de ID:
+Valida a existência do parâmetro ID em todas as rotas.
+Retorna um erro se o ID não existir; caso contrário, permite a continuidade da requisição.
+ 
+- Middleware de Log de Requisição:
+Exibe no console o método da requisição (GET, POST, PUT, DELETE, etc.) e a URL.
+Aplicado a todas as requisições.</p>
  </p>
 
